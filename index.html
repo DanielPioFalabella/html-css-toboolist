@@ -14,18 +14,52 @@
         rel="stylesheet">
 </head>
 
-<body>
+<body class="pagina">
         <!-- header con logo Toboolist -->
-    <header class="sfondo-bianco">
+    <header>
         <img class="header-logo" src="./imgs/logo.png" alt="logo Todolist">
         <h1 class="header-titolo">Toboolist</h1>
     </header>
 
-    <div class="sfondo-pagina"></div>
+    <div class="lista-pagina"></div>
     <!-- elenco di task da svolgere -->
-    <section class="pricipale">
-        <button class="button-blu">Add Task</button>
-        <button class="button-bianco">Add Section</button>
+    <section class="pricipale lista-task">
+        <span class="margine">
+            <button class="button-blu">Add Task</button>
+            <button class="button-bianco">Add Section</button>
+        </span>
+        <br>
+
+        <div class="lista-task">
+            <ul>
+                <li><span class="titoletto">New task</span>
+                    <ul>
+                        <li>Quarterly Newsletter <button class="button-blu bordo-arrotondato">Editorial</button></li>
+                    </ul>
+                </li>
+                <br>
+
+                <li><span class="titoletto">Today</span>
+                    <ul>
+                        <li>Recruiting blog post <button class="button-blu bordo-arrotondato">Editorial</button></li>
+                        <li>Mobile app luaunch <button class="button-viola bordo-arrotondato">Q1 Goals</button></li>
+                        <li>Interview John H. <button class="button-verde bordo-arrotondato">Recruiting</button></li>
+                        <li>Summit update to mobile storefronts <button class="button-arancione bordo-arrotondato">Mobile</button></li>
+                    </ul>
+                </li>
+                <br>
+
+                <li><span class="titoletto">Upcoming</span>
+                    <ul>
+                        <li>Schedule meeting with Alex</li>
+                        <li>Homepage refresh <button class="button-fuxia bordo-arrotondato">Website</button></li>
+                        <li>Onboard new Sales team members <button class="button-verde-oliva bordo-arrotondato">Sales</button></li>
+                        <li>Review editorial calendar <button class="button-blu bordo-arrotondato">Editorial</button></li>
+                        <br>
+                    </ul>
+                </li>
+            </ul>
+        </div>
     </section>
     </div>
 </body>
