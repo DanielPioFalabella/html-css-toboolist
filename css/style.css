@@ -1,4 +1,28 @@
+/* UTILITY CLASS */
+.button-blu {
+    background-color: rgb(108, 172, 255);
+    color: white;
+    border: 0;
+    border-radius: 10%;
+    font-family: "Roboto", sans-serif;
+    font-size: 0.7rem;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.button-bianco {
+    background-color: rgb(255, 255, 255);
+    color: grey;
+    border: 1px solid grey;
+    border-radius: 10%;
+    font-family: "Roboto", sans-serif;
+    font-size: 0.7rem;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
 header {
+    background-color: white;
     height: 80px;
 }
 
@@ -15,3 +39,12 @@ header {
     font-size: 40px;
     vertical-align: middle;
 }
+
+.sfondo-pagina {
+    background-color: red;
+}
+
+.principale {
+    margin: 0 auto;
+}
+
