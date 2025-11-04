@@ -1,0 +1,17 @@
+header {
+    height: 80px;
+}
+
+.header-logo {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.header-titolo {
+    display: inline;
+    font-family: "Roboto", sans-serif;
+    font-size: 40px;
+    vertical-align: middle;
+}
