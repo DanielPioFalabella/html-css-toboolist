@@ -4,7 +4,7 @@
 /* UTILITY CLASS */
 .button-blu {
     display: inline-block;
-    background-color: rgb(108, 172, 255);
+    background-color: rgb(30, 157, 255);
     color: white;
     border: 0;
     border-radius: 10%;
@@ -143,3 +143,26 @@ header {
     background-color: rgb(0, 0, 255);
 }
 
+hr {
+    background-color: gainsboro;
+    color: gainsboro;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.freccia {
+  list-style-type: "▼ ";
+}
+
+.check {
+    list-style-type: "✔ ";
+}
+
+
+.crocetta {
+    list-style-type: "✘ ";
+}
+
+.no-padding {
+    padding-left: 0;
+}
