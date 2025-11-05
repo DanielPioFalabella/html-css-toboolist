@@ -2,9 +2,8 @@
     margin: 0;
 }
 /* UTILITY CLASS */
-.button-blu {
+.button {
     display: inline-block;
-    background-color: rgb(30, 157, 255);
     color: white;
     border: 0;
     border-radius: 10%;
@@ -12,6 +11,10 @@
     font-size: 0.7rem;
     padding-top: 6px;
     padding-bottom: 6px;
+}
+
+.button-blu {
+    background-color: rgb(30, 157, 255);
 }
 
 .button-bianco {
@@ -27,63 +30,23 @@
 }
 
 .button-viola {
-    display: inline-block;
     background-color: rgb(145, 46, 199);
-    color: white;
-    border: 0px solid grey;
-    border-radius: 10%;
-    font-family: "Roboto", sans-serif;
-    font-size: 0.7rem;
-    padding-top: 6px;
-    padding-bottom: 6px;
 }
 
 .button-verde {
-    display: inline-block;
     background-color: rgb(71, 215, 140);
-    color: white;
-    border: 0;
-    border-radius: 10%;
-    font-family: "Roboto", sans-serif;
-    font-size: 0.7rem;
-    padding-top: 6px;
-    padding-bottom: 6px;
 }
 
 .button-arancione {
-    display: inline-block;
     background-color: rgb(255, 159, 50);
-    color: white;
-    border: 0;
-    border-radius: 10%;
-    font-family: "Roboto", sans-serif;
-    font-size: 0.7rem;
-    padding-top: 6px;
-    padding-bottom: 6px;
 }
 
 .button-fuxia {
-    display: inline-block;
     background-color: rgb(228, 63, 193);
-    color: white;
-    border: 0;
-    border-radius: 10%;
-    font-family: "Roboto", sans-serif;
-    font-size: 0.7rem;
-    padding-top: 6px;
-    padding-bottom: 6px;
 }
 
 .button-verde-oliva {
-    display: inline-block;
     background-color: rgb(154, 210, 76);
-    color: white;
-    border: 0;
-    border-radius: 10%;
-    font-family: "Roboto", sans-serif;
-    font-size: 0.7rem;
-    padding-top: 6px;
-    padding-bottom: 6px;
 }
 
 .bordo-arrotondato {
